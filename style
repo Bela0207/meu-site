@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+ol {
+    margin-left: 20px;
+}
+ol[type="a"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+ol[type="x"] {
+    list-style-type: lower-roman;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+ol[type="α"] {
+    list-style-type: lower-greek;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: square;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+ul.imagem {
+    list-style-image: url('imagens/seta.gif'); /* Substitua com o caminho correto da imagem */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
