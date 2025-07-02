@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo - MariaIsabela Carvalho de Godoy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .topo-esquerdo {
+      text-align: center;
+    }
+
+    .topo-esquerdo img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    .contato {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .div6 {
+      border: 2px solid red;
+      padding: 10px;
+      text-align: center;
+      height: 100%;
+    }
+
+    /* Linha completa para as divs abaixo */
+    .formacoes {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .formacoes > div {
+      border: 1px solid red;
+      padding: 10px;
+    }
+
+    .nome {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    h3 {
+      margin: 0 0 5px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .soft-skills a {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nome">Maria Isabela Carvalho de Godoy</div>
+
+  <div class="container">
+    
+    <!-- DIV1 + DIV2 (foto e contato) -->
+    <div class="topo-esquerdo">
+      <img src="imagens/a.png">
+      <p>instagram: @godoy_belina</p>
+      <p>idade: 18 anos</p>
+      <div class="contato">
+        <p>contato: Belacarvalhogodoy@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- DIV6 -->
+    <div class="div6">
+      <p>ambiente confortavel<br>home office<br>bom salario</p>
+    </div>
+
+    <!-- DIV3, DIV4, DIV5 -->
+    <div class="formacoes">
+      <!-- DIV3 -->
+      <div>
+        <h3>1. Formações acadêmicas</h3>
+        <p>2022 - 2025 | <a href="https://www.serra.ifes.edu.br/">Instituto federal do Espirito Santo (IFES-campus Serra)</a></p>
+        <p>técnico em internet of things</p>
+      </div>
+
+      <!-- DIV4 -->
+      <div>
+        <h3>2. Formações complementares</h3>
+        <p>2018 - 2023 | <a href="https://numberone.com.br/"> Inglês </a></p>
+      </div>
+
+      <!-- DIV5 -->
+      <div class="soft-skills">
+        <h3>3. Soft Skill</h3>
+        <a href="https://pt.wikipedia.org/wiki/Empatia">Empatia</a>
+        <a href="https://pt.wikipedia.org/wiki/%C3%89tica">Ética</a>
+        <a href="https://pt.wikipedia.org/wiki/Inova%C3%A7%C3%A3o">Inovação</a>
+        <a href="https://pt.wikipedia.org/wiki/Concentra%C3%A7%C3%A3o">Capacidade de concentração</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
